@@ -20,32 +20,32 @@ deeplearning.ai is also partnering with the NVIDIA Deep Learning Institute (DLI)
 # Deep-Learning-Specialization Syllabus
 80hs
 
-1. Neural Networks and Deep Learning
+### 1. Neural Networks and Deep Learning
 
 20 hs
 
 https://www.coursera.org/account/accomplishments/verify/UJYT73TRD8UK
 
-2. Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
+### 2. Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
 
 18 hs
 
-3. Structuring Machine Learning Projects
+### 3. Structuring Machine Learning Projects
 
 5 hs
 
 https://www.coursera.org/account/accomplishments/verify/N6PU3WJZQ7P9
 
-4. Convolutional Neural Networks
+### 4. Convolutional Neural Networks
 
 20 hs
 
-5. Sequence Models -> No llegué a anotarme :_(
+### 5. Sequence Models -> No llegué a anotarme :_(
 
 16 hs
 
 
-Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+### Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
 
 Standalone course
 
@@ -149,6 +149,72 @@ Understand the key computations underlying deep learning, use them to build and 
 - Clarification about What does this have to do with the brain video 1m
 - Key concepts on Deep Neural Networks 30m
 
+## 2. Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
+### WEEK 1
+8 hours to complete
+
+Practical aspects of Deep Learning
+
+- Train / Dev / Test sets 12m
+- Bias / Variance 8m
+- Basic Recipe for Machine Learning 6m
+- Regularization 9m
+- Why regularization reduces overfitting? 7m
+- Dropout Regularization 9m
+- Understanding Dropout 7m
+- Other regularization methods 8m
+- Normalizing inputs 5m
+- Vanishing / Exploding gradients 6m
+- Weight Initialization for Deep Networks 6m
+- Numerical approximation of gradients 6m
+- Gradient checking 6m
+- Gradient Checking Implementation Notes 5m
+- Yoshua Bengio interview 25m
+- Clarification about Upcoming Regularization Video 1m
+- Clarification about Upcoming Understanding dropout Video 1m
+- Clarification about Upcoming Normalizing Inputs Video 1m
+- Practical aspects of deep learning 30m
+
+### WEEK 2
+5 hours to complete
+
+Optimization algorithms
+
+- Mini-batch gradient descent 11m
+- Understanding mini-batch gradient descent 11m
+- Exponentially weighted averages 5m
+- Understanding exponentially weighted averages 9m
+- Bias correction in exponentially weighted averages 4m
+- Gradient descent with momentum 9m
+- RMSprop 7m
+- Adam optimization algorithm 7m
+- Learning rate decay 6m
+- The problem of local optima 5m
+- Yuanqing Lin interview 13m
+- Clarification about Upcoming Adam Optimization Video 1m
+- Clarification about Learning Rate Decay Video 1m
+- Optimization algorithms 30m
+
+### WEEK 3
+5 hours to complete
+
+Hyperparameter tuning, Batch Normalization and Programming Frameworks
+
+- Tuning process 7m
+- Using an appropriate scale to pick hyperparameters 8m
+- Hyperparameters tuning in practice: Pandas vs. Caviar 6m
+- Normalizing activations in a network 8m
+- Fitting Batch Norm into a neural network 12m
+- Why does Batch Norm work? 11m
+- Batch Norm at test time 5m
+- Softmax Regression 11m
+- Training a softmax classifier 10m
+- Deep learning frameworks 4m
+- TensorFlow 16m
+- Clarifications about Upcoming Softmax Video 1m
+- Note about TensorFlow 1 and TensorFlow 2 10m
+- Hyperparameter tuning, Batch Normalization, Programming Frameworks 30m
+
 ## 3. Structuring Machine Learning Projects
 ### WEEK 1
 2 hours to complete
@@ -184,3 +250,94 @@ Understand the key computations underlying deep learning, use them to build and 
 - Whether to use end-to-end deep learning 10m
 - Ruslan Salakhutdinov interview 17m
 - Autonomous driving (case study) 45m
+
+## 4. Convolutional Neural Networks
+### WEEK 1
+6 hours to complete
+
+Foundations of Convolutional Neural Networks
+
+Learn to implement the foundational layers of CNNs (pooling, convolutions) and to stack them properly in a deep network to solve multi-class image classification problems.
+
+- Computer Vision 5m
+- Edge Detection Example 11m
+- More Edge Detection 7m
+- Padding 9m
+- Strided Convolutions 9m
+- Convolutions Over Volume 10m
+- One Layer of a Convolutional Network 16m
+- Simple Convolutional Network Example 8m
+- Pooling Layers 10m
+- CNN Example 12m
+- Why Convolutions? 9m
+- Yann LeCun Interview 27m
+- Strided convolutions *CORRECTION* 1m
+- Simple Convolutional Network Example *CORRECTION* 1m
+- CNN Example *CORRECTION* 1m
+- Why Convolutions? *CORRECTION* 1m
+- The basics of ConvNets 30m
+
+### WEEK 2
+5 hours to complete
+
+Deep convolutional models: case studies
+
+Learn about the practical tricks and methods used in deep CNNs straight from the research papers.
+
+- Why look at case studies? 3m
+- Classic Networks 18m
+- ResNets 7m
+- Why ResNets Work 9m
+- Networks in Networks and 1x1 Convolutions 6m
+- Inception Network Motivation 10m
+- Inception Network 8m
+- Using Open-Source Implementation 4m
+- Transfer Learning 8m
+- Data Augmentation 9m
+- State of Computer Vision 12m
+- Inception Network Motivation *CORRECTION* 1m
+- Deep convolutional models 30m
+
+### WEEK 3
+4 hours to complete
+
+Object detection
+
+Learn how to apply your knowledge of CNNs to one of the toughest but hottest field of computer vision: Object detection.
+
+- Object Localization 11m
+- Landmark Detection 5m
+- Object Detection 5m
+- Convolutional Implementation of Sliding Windows 11m
+- Bounding Box Predictions 14m
+- Intersection Over Union 4m
+- Non-max Suppression 8m
+- Anchor Boxes 9m
+- YOLO Algorithm 7m
+- (Optional) Region Proposals 6m
+- Convolutional Implementation of Sliding Windows *CORRECTION* 1m
+- YOLO algorithm *CORRECTION* 1m
+- Detection algorithms 30m
+
+### WEEK 4
+5 hours to complete
+
+Special applications: Face recognition & Neural style transfer
+
+Discover how CNNs can be applied to multiple fields, including art generation and face recognition. Implement your own algorithm to generate art and recognize faces!
+
+- What is face recognition? 4m
+- One Shot Learning 4m
+- Siamese Network 4m
+- Triplet Loss 15m
+- Face Verification and Binary Classification 6m
+- What is neural style transfer? 2m
+- What are deep ConvNets learning? 7m
+- Cost Function 3m
+- Content Cost Function 3m
+- Style Cost Function 13m
+- 1D and 3D Generalizations 9m
+- Triplet Loss *CORRECTION* 1m
+- Face Verification and Binary Classification *CORRECTION* 1m
+- Style Cost *CORRECTION* 1m
+- Special applications: Face recognition & Neural style transfer 30m
