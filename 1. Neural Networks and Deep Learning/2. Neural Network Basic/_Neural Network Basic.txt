@@ -1,0 +1,15 @@
+Neural Network Basic
+--------------------
+
+numpy doc:
+https://numpy.org/doc/stable/reference/routines.math.html
+https://numpy.org/doc/stable/reference/generated/numpy.exp.html
+
+math doc:
+https://docs.python.org/3/library/math.html
+
+
+Exercises
+https://github.com/fanghao6666/neural-networks-and-deep-learning/blob/master/py
+https://github.com/AdalbertoCq/Deep-Learning-Specialization-Coursera/tree/master/Neural%20Networks%20and%20Deep%20Learning
+https://github.com/amarsic1990/Deep-learning/blob/master/Logistic%20Regression%20with%20a%20Neural%20Network%20mindset.py
