@@ -1,5 +1,9 @@
 # Deep-Learning-Specialization
 Deep Learning Specialization consists of 5 courses given by DeepLearning.AI
+I took the first 4 courses and a separate course given by Stanford University.
+
+Basically I learned all the theory of Machine Learning and the basics of every formula, calculus and matrix operations used for neural networks.
+I also learned how to apply those concepts to real life examples using Python, Tensorflow and Octave.
 
 # About this Specialization
 If you want to break into AI, this Specialization will help you do so. Deep Learning is one of the most highly sought after skills in tech. We will help you become good at Deep Learning.
