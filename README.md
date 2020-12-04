@@ -30,6 +30,8 @@ https://www.coursera.org/account/accomplishments/verify/UJYT73TRD8UK
 
 18 hs
 
+https://www.coursera.org/account/accomplishments/verify/L5SJGD4EJWWZ
+
 ### 3. Structuring Machine Learning Projects
 
 5 hs
